@@ -49,13 +49,13 @@ const About = () => {
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/2253842/pexels-photo-2253842.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="couple.jpg?auto=compress&cs=tinysrgb&w=800"
               alt="Wedding planning team"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl">
               <div className="text-center">
-                <div className="text-3xl font-bold text-pink-600">500+</div>
+                <div className="text-3xl font-bold text-pink-600">100+</div>
                 <div className="text-gray-600 font-medium">Happy Couples</div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const About = () => {
             <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="w-8 h-8 text-pink-600" />
             </div>
-            <div className="text-3xl font-bold text-gray-800 mb-2">10+</div>
+            <div className="text-3xl font-bold text-gray-800 mb-2">5+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
           
@@ -76,7 +76,7 @@ const About = () => {
             <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <Heart className="w-8 h-8 text-pink-600" />
             </div>
-            <div className="text-3xl font-bold text-gray-800 mb-2">500+</div>
+            <div className="text-3xl font-bold text-gray-800 mb-2">100+</div>
             <div className="text-gray-600">Weddings Planned</div>
           </div>
           

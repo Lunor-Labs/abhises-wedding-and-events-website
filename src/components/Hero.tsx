@@ -13,7 +13,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src="abhises.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
           alt="Beautiful wedding ceremony"
           className="w-full h-full object-cover"
         />

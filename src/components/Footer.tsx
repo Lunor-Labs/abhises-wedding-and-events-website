@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Heart className="w-8 h-8 text-pink-400" />
-              <span className="text-2xl font-bold">Ever After Moments</span>
+              <span className="text-2xl font-bold">අභිසෙස් Weddings & Events</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
               Creating unforgettable wedding experiences with passion, creativity, and attention to detail. 
