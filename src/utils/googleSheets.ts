@@ -97,7 +97,7 @@ const defaultData: GoogleSheetsData = {
     {
       name: 'Sarah & Michael',
       image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop&crop=face',
-      text: 'Ever After Moments made our dream wedding come true! Every detail was perfect, and they handled everything with such grace and professionalism. We couldn\'t be happier!',
+      text: 'අභිසෙස් Weddings & Eventsmade our dream wedding come true! Every detail was perfect, and they handled everything with such grace and professionalism. We couldn\'t be happier!',
       rating: 5,
       wedding: 'Garden Wedding, June 2024'
     },

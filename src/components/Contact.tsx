@@ -18,9 +18,29 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your inquiry! We\'ll get back to you within 24 hours.');
+    
+    // Create WhatsApp message
+    const whatsappMessage = `Hello! I'm interested in your wedding planning services.
+
+*Name:* ${formData.name}
+*Email:* ${formData.email}
+*Event Date:* ${formData.eventDate || 'Not specified'}
+
+*Message:*
+${formData.message}
+
+Looking forward to hearing from you!`;
+
+    // WhatsApp business number (replace with actual number)
+    const whatsappNumber = '++94 71 579 3991'; // Replace with your actual WhatsApp business number
+    
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+    
+    // Reset form
     setFormData({ name: '', email: '', eventDate: '', message: '' });
   };
 
@@ -115,7 +135,7 @@ const Contact = () => {
                 className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white py-4 px-6 rounded-lg font-bold text-lg hover:from-pink-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Send Message
+                Send WhatsApp Message
               </button>
             </form>
           </div>
@@ -132,8 +152,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-gray-800">Phone</div>
-                    <a href="tel:+1234567890" className="text-pink-600 hover:text-pink-700 transition-colors">
-                      (123) 456-7890
+                    <a href="tel:+94 71 579 3991" className="text-pink-600 hover:text-pink-700 transition-colors">
+                      +94 71 579 3991
                     </a>
                   </div>
                 </div>
@@ -144,8 +164,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-gray-800">Email</div>
-                    <a href="mailto:hello@everaftermoments.com" className="text-pink-600 hover:text-pink-700 transition-colors">
-                      hello@everaftermoments.com
+                    <a href="mailto:hello@everaftermoments.lk" className="text-pink-600 hover:text-pink-700 transition-colors">
+                      hello@everaftermoments.lk
                     </a>
                   </div>
                 </div>
@@ -157,8 +177,8 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-gray-800">Address</div>
                     <div className="text-gray-600">
-                      123 Wedding Lane<br />
-                      Beverly Hills, CA 90210
+                      123 Galle Road<br />
+                      Colombo 03, Sri Lanka
                     </div>
                   </div>
                 </div>
@@ -185,7 +205,7 @@ const Contact = () => {
                 <div className="text-center text-gray-500">
                   <MapPin className="w-12 h-12 mx-auto mb-2" />
                   <div className="text-lg font-medium">Interactive Map</div>
-                  <div className="text-sm">Beverly Hills, CA 90210</div>
+                  <div className="text-sm">Colombo 03, Sri Lanka</div>
                 </div>
               </div>
             </div>

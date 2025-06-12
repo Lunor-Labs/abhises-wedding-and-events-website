@@ -59,15 +59,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>(123) 456-7890</span>
+                <span>+94 71 579 3991</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>hello@everaftermoments.com</span>
+                <span>info@abhises.com</span>
               </div>
               <div className="text-gray-400">
-                123 Wedding Lane<br />
-                Beverly Hills, CA 90210
+                No 116, Piliyandala Road<br />
+                Maharagama, Sri Lanka
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Ever After Moments. All rights reserved.
+              © 2025 අභිසෙස් Weddings & Events. All rights reserved. | Developed by Lunar Labs
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors">Privacy Policy</a>

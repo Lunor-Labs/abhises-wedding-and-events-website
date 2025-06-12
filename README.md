@@ -1,4 +1,4 @@
-# Ever After Moments - Wedding Planning Website
+# අභිසෙස් Weddings & Events- Wedding Planning Website
 
 A stunning, modern wedding planning website with Google Sheets integration for dynamic content management.
 

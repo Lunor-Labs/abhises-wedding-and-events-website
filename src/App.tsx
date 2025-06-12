@@ -8,7 +8,6 @@ import Testimonials from './components/Testimonials';
 import Packages from './components/Packages';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import AdminPanel from './components/AdminPanel';
 
 function App() {
   useEffect(() => {
@@ -16,14 +15,14 @@ function App() {
     document.documentElement.style.scrollBehavior = 'smooth';
     
     // Update document title
-    document.title = 'Ever After Moments - Premium Wedding Planning';
+    document.title = 'අභිසෙස් Weddings & Events- Premium Wedding Planning';
     
     // Add meta description for SEO
     const metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'Ever After Moments - Premium wedding and event planning services. Creating unforgettable celebrations with passion, creativity, and attention to detail.';
+      meta.content = 'අභිසෙස් Weddings & Events- Premium wedding and event planning services. Creating unforgettable celebrations with passion, creativity, and attention to detail.';
       document.head.appendChild(meta);
     }
 
@@ -65,7 +64,6 @@ function App() {
         <Contact />
       </main>
       <Footer />
-      <AdminPanel />
     </div>
   );
 }
