@@ -59,15 +59,22 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>+94 71 579 3991</span>
+                <div className="flex flex-col text-sm space-y-0.5">
+                  <a href="tel:+94779000215" className="hover:text-pink-600">
+                    +94 779 000 215
+                  </a>
+                  <a href="tel:+94719000315" className="hover:text-pink-600">
+                    +94 719 000 315
+                  </a>
+                </div>
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>info@abhises.com</span>
+                <span>abhisesevents@gmail.com</span>
               </div>
               <div className="text-gray-400">
-                No 116, Piliyandala Road<br />
-                Maharagama, Sri Lanka
+                St Jude Road<br />
+                Kattuwa, Negombo
               </div>
             </div>
           </div>

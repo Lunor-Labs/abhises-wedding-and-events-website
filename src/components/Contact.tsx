@@ -32,7 +32,7 @@ ${formData.message}
 Looking forward to hearing from you!`;
 
     // WhatsApp business number (replace with actual number)
-    const whatsappNumber = '++94 71 579 3991'; // Replace with your actual WhatsApp business number
+    const whatsappNumber = '+94 779000215'; // Replace with your actual WhatsApp business number
     
     // Create WhatsApp URL
     const whatsappUrl = `https://wa.me/${whatsappNumber.replace('+', '')}?text=${encodeURIComponent(whatsappMessage)}`;
@@ -152,11 +152,17 @@ Looking forward to hearing from you!`;
                   </div>
                   <div>
                     <div className="font-medium text-gray-800">Phone</div>
-                    <a href="tel:+94 71 579 3991" className="text-pink-600 hover:text-pink-700 transition-colors">
-                      +94 71 579 3991
-                    </a>
+                    <div className="flex flex-col space-y-1 text-pink-600">
+                      <a href="tel:+94779000215" className="hover:text-pink-700 transition-colors">
+                        +94 779 000 215
+                      </a>
+                      <a href="tel:+94719000315" className="hover:text-pink-700 transition-colors">
+                        +94 719 000 315
+                      </a>
+                    </div>
                   </div>
                 </div>
+
                 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
@@ -164,8 +170,8 @@ Looking forward to hearing from you!`;
                   </div>
                   <div>
                     <div className="font-medium text-gray-800">Email</div>
-                    <a href="mailto:hello@everaftermoments.lk" className="text-pink-600 hover:text-pink-700 transition-colors">
-                      hello@everaftermoments.lk
+                    <a href="mailto:abhisesevents@gmail.com" className="text-pink-600 hover:text-pink-700 transition-colors">
+                      abhisesevents@gmail.com
                     </a>
                   </div>
                 </div>
@@ -177,8 +183,8 @@ Looking forward to hearing from you!`;
                   <div>
                     <div className="font-medium text-gray-800">Address</div>
                     <div className="text-gray-600">
-                      123 Galle Road<br />
-                      Colombo 03, Sri Lanka
+                      St Jude Road<br />
+                      Kattuwa, Negombo
                     </div>
                   </div>
                 </div>
@@ -199,14 +205,23 @@ Looking forward to hearing from you!`;
               </div>
             </div>
 
+          
+
             {/* Map */}
             <div className="bg-white p-4 rounded-2xl shadow-xl">
-              <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <MapPin className="w-12 h-12 mx-auto mb-2" />
-                  <div className="text-lg font-medium">Interactive Map</div>
-                  <div className="text-sm">Colombo 03, Sri Lanka</div>
-                </div>
+              <div className="rounded-lg overflow-hidden h-64">
+                <iframe
+                  title="Google Map"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  className="w-full h-full"
+                  style={{ border: 0 }}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.9973604282277!2d79.8492100759286!3d7.241137192765214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e94a779ab4c1%3A0x6a4a74754633fa82!2sSt%20Jude%20Rd%2C%20Negombo!5e0!3m2!1sen!2slk!4v1749986708059!5m2!1sen!2slk"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
